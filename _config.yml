@@ -1,0 +1,15 @@
+# The GitHub Pages site that hosts Little Peanut's privacy policy and support page
+# (Scripts/site.sh builds and publishes it; Docs/AppStore/README.md says how). Jekyll, which
+# GitHub Pages runs on every push, renders the Markdown, so the pages are the same files
+# App Store Connect's drafts are reviewed from.
+title: Ronnie Simonelli
+description: Apps for iPhone by Ronnie Simonelli.
+theme: minima
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+header_pages:
+  - littlepeanut/privacy.md
+  - littlepeanut/support.md
+minima:
+  date_format: "%B %-d, %Y"
